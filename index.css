@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: #07d1ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 62.5%;
+  overflow: hidden;
+}
+
+h1 {
+  outline: none;
+  color: #fff;
+  font-size: 6rem;
+  line-height: 1.1em;
+  transform: rotate(-10deg) skewX(15deg);
+  user-select: none;
+  text-shadow: -1px 1px #cacaca, -2px 2px #cacaca, -3px 3px #cacaca,
+    -4px 4px #cacaca, -5px 5px #cacaca, -6px 6px #cacaca, -7px 7px #cacaca,
+    -8px 8px #cacaca, -9px 9px #cacaca, -10px 10px #cacaca, -11px 11px #cacaca,
+    -12px 12px #cacaca, -20px 20px rgba(0, 0, 0, 0.2);
+}
